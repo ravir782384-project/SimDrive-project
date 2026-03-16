@@ -18,15 +18,15 @@ Experience next-level sim racing with professional hardware designed for true Ca
           <div className="footer-socials">
 
            
-      <a href="#" className="footer-social-icon" aria-label="Instagram">
+      <a href="/" className="footer-social-icon" aria-label="Instagram">
   <Instagram size={25} />
 </a>
           
-       <a href="#" className="footer-social-icon" aria-label="Youtube">
+       <a href="/" className="footer-social-icon" aria-label="Youtube">
   <Youtube size={25} />
 </a>
           
-         <a href="#" className="footer-social-icon" aria-label="X">
+         <a href="/" className="footer-social-icon" aria-label="X">
   <Twitter size={25} />
 </a>
           </div>
@@ -49,8 +49,8 @@ Experience next-level sim racing with professional hardware designed for true Ca
       <div className="footer-bottom">
         <span className="footer-copyright">© 2026 SimDrive Store. All rights reserved.</span>
         <div className="footer-bottom-links">
-          <a href="#" className="footer-bottom-link">Privacy Policy</a>
-          <a href="#" className="footer-bottom-link">Terms of Service</a>
+          <a href="/" className="footer-bottom-link">Privacy Policy</a>
+          <a href="/" className="footer-bottom-link">Terms of Service</a>
         </div>
       </div>
 
