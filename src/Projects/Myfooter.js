@@ -36,9 +36,9 @@ Experience next-level sim racing with professional hardware designed for true Ca
           <h4 className="footer-column-title">Support</h4>
           <ul className="footer-link-list">
             <Link to="/contact" className="footer-link">Contact Us</Link>
-            <li><a href="#" className="footer-link">Shipping Policy</a></li>
-            <li><a href="#" className="footer-link">Returns & Warranty</a></li>
-            <li><a href="#" className="footer-link">Driver Downloads</a></li>
+            <li><a href="/" className="footer-link">Shipping Policy</a></li>
+            <li><a href="/" className="footer-link">Returns & Warranty</a></li>
+            <li><a href="/" className="footer-link">Driver Downloads</a></li>
           </ul>
         </div>
 
