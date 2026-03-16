@@ -1,0 +1,30 @@
+.features-bar {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 80px;
+  border-top: 1px solid #222;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Title */
+.feature-text h4 {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 4px 0;
+}
+
+/* Desc*/
+.feature-text p {
+  color: #949494;
+  font-size: 13px;
+  margin: 0;
+}

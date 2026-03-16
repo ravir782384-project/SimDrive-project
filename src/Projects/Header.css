@@ -1,0 +1,119 @@
+.header-container {
+  position: relative;
+  width: 100%;
+}
+.header-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* blur */
+.header-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 10%,   
+    rgba(0, 0, 0, 0.25) 23%,  
+    rgba(0, 0, 0, 0.99) 72%     
+  );
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  color: white;
+  width: 70%;
+  animation: fadein 2.2s ease forwards; 
+}
+
+.hero-text h1 {
+font-family: 'Audiowide', cursive;  
+font-size: 80px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+.hero-text h2 {
+  font-family: 'Audiowide', cursive;
+  font-size: 46px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  color: #ccb5ff;
+  text-shadow: 
+    0 0 10px #7b39ee,
+    0 0 10px #6928da,
+    0 0 25px #8640ff;
+}
+
+.hero-text h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #d3d3d3;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 30px;
+   /* animation: fadein 1s ease 0.5s forwards;  
+  opacity: 0;   */
+}
+
+.btn-primary {
+  background-color: #6d38ff;
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 14px 36px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+/* Animation define karo */
+/* @keyframes fadein {
+  0%   { opacity: 0; transform: translateY(30px); } 
+  100% { opacity: 1; transform: translateY(0); }     
+} */
+@keyframes fadein {
+  0%   { 
+    opacity: 0; 
+    transform: translate(-50%, calc(-50% + 30px));  /* ✅ niche se */
+  }
+  100% { 
+    opacity: 1; 
+    transform: translate(-50%, -50%);  /* ✅ sahi position */
+  }
+}

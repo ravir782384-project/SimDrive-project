@@ -1,0 +1,64 @@
+.gears-page {
+  background-color: #111111;
+  padding: 60px 80px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.gears-top {
+  margin-bottom: 40px;
+  width: 100%;          
+  text-align: center;   
+}
+
+.gears-heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin: 0 0 16px 0;
+}
+
+.gears-accent {
+  color: #b48aff;
+}
+
+.gears-desc {
+  font-size: 15px;
+  color: #888;
+  line-height: 1.8;
+  margin: 0 auto;      
+  max-width: 600px;
+  text-align: center;   
+}
+
+
+.gears-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: center;  
+}
+
+.filter-btn {
+  background-color: #1a1a1a;
+  color: #aaaaaa;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.filter-btn:hover {
+  background-color: #b48aff;
+  color: #ffffff;
+  border-color: #b48aff;
+}
+

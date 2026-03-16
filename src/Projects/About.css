@@ -1,0 +1,80 @@
+.about-page {
+  background-color: #111111;
+  padding: 80px;
+  color: white;
+}
+
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto 20px auto;  
+  text-align: center;        
+}
+
+
+.about-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #b48aff;
+  display: block;
+  margin-bottom: 12px;
+}
+
+
+.about-heading {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin: 0 0 16px 0;
+}
+
+
+.about-desc {
+  font-size: 15px;
+  color: #888;
+  line-height: 1.8;
+  margin: 0;
+}
+
+
+.about-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #222;
+  margin: 40px 0;
+}
+
+
+.team-container {
+  display: flex;
+  gap: 42px;
+  margin-top: 30px;
+  justify-content: center;  
+}
+
+.team-card {
+  text-align: center;
+}
+
+
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #b48aff;
+  margin: 0 auto 12px auto;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 6px 0;
+}
+
+.team-card p {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
